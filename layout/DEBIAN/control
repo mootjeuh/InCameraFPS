@@ -1,0 +1,9 @@
+Package: com.mootjeuh.incamerafps
+Name: InCameraFPS
+Depends: mobilesubstrate
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Edit FPS recording settings from within the Camera app
+Maintainer: Mohamed Marbouh
+Author: Mohamed Marbouh
+Section: Tweaks
