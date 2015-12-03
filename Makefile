@@ -2,6 +2,7 @@ TWEAK_NAME = InCameraFPS
 
 InCameraFPS_FILES = $(wildcard ./*.*m)
 InCameraFPS_FRAMEWORKS = CoreGraphics
+InCameraFPS_LDFLAGS += -Wl,-segalign,4000
 
 export TARGET = iphone:clang
 export ARCHS = armv7 armv7s arm64
